@@ -1,11 +1,10 @@
 // app/blood-donor/page.jsx
 
 'use client';
-
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
-import donorImage from '../../../public/Images/foodpara.png';
+import donorImage from '../../../public/images/foodpara.png';
 
 
 
@@ -54,7 +53,7 @@ const BloodDonorPage = () => {
     { name: 'Shiekh Forid Fahim', phone: '01753820390', bloodGroup: 'A+', address: 'Seedstore Bazar, Habirbari, Bhaluka' },
     { name: 'MD.Abdul momin', phone: '01956781356', bloodGroup: 'AB+', address: 'ত্রিশাল' },
     { name: 'MD Shamin Miy', phone: '01749703200', bloodGroup: 'B+', address: 'ত্রিশাল' },
-    { name: 'নাজিম', phone: '01739077252', bloodGroup: 'O+', address: 'ভরাডোবা' },
+    { name: 'নাজিম উদ্দিন', phone: '01739077252', bloodGroup: 'O+', address: 'ভরাডোবা' },
     { name: 'Mehedi Hasan Shanto', phone: '01611463440', bloodGroup: 'O+', address: 'Bhaluka, Mymensingh' },
     { name: 'শাহিন ফেরদৌস', phone: '01933458967', bloodGroup: 'O+', address: 'জৈয়না বাজার শ্রীপুর গাজীপুর' },
     { name: 'Shohidul islam Skahk', phone: '01620877410', bloodGroup: 'B+', address: 'biruniya balonka' },
