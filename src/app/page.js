@@ -10,6 +10,10 @@ export default function HomePage() {
   const services = [
     { name: '🩸 ব্লাড ডোনার', link: '/bhaluka-blood-donor', desc: 'রক্তদাতার তালিকা' },
     { name: '🩸 ইমাম ওলামা ', link: '/imam-olama-bhaluka-upazila', desc: 'ভালুকা উপজেলা' },
+    { name: '🩸 দক্ষ মিস্ত্রীগণ ', link: '/imam-olama-bhaluka-upazila', desc: 'মিস্ত্রীদের তালিকা' },
+    { name: '🩸 সাংবাদিকগন ', link: '/bhaluka-journalists', desc: 'ভালুকা উপজেলা' },
+
+
   ];
 
   const filteredServices = services.filter(service =>
