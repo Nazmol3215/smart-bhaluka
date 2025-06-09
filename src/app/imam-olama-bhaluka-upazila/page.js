@@ -50,7 +50,8 @@ const ProfileCard = ({ profile }) => (
   style={{
     objectFit: "cover",
     border: "3px solid #007bff",
-    borderRadius: "50%", // একেবারে গোল করার জন্য
+    borderRadius: "50%", // একেবারে গোল করার জন্য ্ি্ে িকোড লেখা হয়েছে
+    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
     width: "140px",
     height: "140px"
   }}
