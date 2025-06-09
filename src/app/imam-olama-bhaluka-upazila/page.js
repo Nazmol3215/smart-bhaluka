@@ -45,14 +45,14 @@ const ProfileCard = ({ profile }) => (
    <Image
   src={profile.image || "/images/ra.png"}
   className="card-img-top mx-auto mt-3"
-  width={200}
-  height={200}
+  width={160}
+  height={160}
   style={{
     objectFit: "cover",
     border: "3px solid #007bff",
     borderRadius: "50%", // একেবারে গোল করার জন্য
-    width: "200px",
-    height: "200px"
+    width: "140px",
+    height: "140px"
   }}
   alt="Profile"
 />
